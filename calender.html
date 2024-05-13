@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="UTF-8">
+    <title>Calender Page</title>
+    <meta name="author" content="Kyle Lamell">
+    <meta name="description" content="cs2210 final project - calender and media station">
+    <link href="{{ url_for('static', filename='css/custom.css') }}" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <meta http-equiv="refresh" content="20">
+</head>
+<body>
+
+<div id="stations">
+    <div id="container">
+        <div id="header">
+            <div id="currentDay"></div>
+        </div>
+        <div id="weekdays">
+            <div>SUNDAY</div>
+            <div>MONDAY</div>
+            <div>TUESDAY</div>
+            <div>WEDNESDAY</div>
+            <div>THURSDAY</div>
+            <div>FRIDAY</div>
+            <div>SATURDAY</div>
+        </div>
+        <div id="calender"></div>
+    </div>
+
+    <div id="container">
+        <div id="media"></div>
+    </div>
+</div>
+
+
+<script src="{{ url_for('static', filename='calender.js') }}"></script>
+</body>
+</html>

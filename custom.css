@@ -1,0 +1,193 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #393D3F;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 26px;
+    font-family: sans-serif;
+    width: 770px;
+}
+
+#stations {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 20px;
+    background-color: #C6C5B9;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#container {
+    width: 770px;
+}
+
+#media {
+    height: 820px;
+    padding: 10px;
+}
+
+.mediaContainer {
+    height: 32.45%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #FDFDFF;
+    margin: 5px;
+    box-shadow: 0px 0px 5px #ADB5BD;
+    border-radius: 3px;
+}
+
+div.mediaContainer {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.mediaContainer img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 3px;
+}
+
+#currentDay {
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 760px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #FDFDFF;
+    box-shadow: 0px 0px 5px #ADB5BD;
+    border-radius: 3px;
+}
+
+#weekdays {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-left: 10px;
+}
+
+#weekdays div {
+    width: 100px;
+    padding: 10px;
+}
+
+#calender {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100px;
+    padding: 10px;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: #FDFDFF;
+    margin: 5px;
+    box-shadow: 0px 0px 3px #ADB5BD;
+    border-radius: 3px;
+}
+
+.dayEvents {
+    overflow: hidden;
+}
+
+.extraDay {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100px;
+    padding: 10px;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: #adadad;
+    margin: 5px;
+    box-shadow: 0px 0px 3px #ADB5BD;
+    border-radius: 3px;
+}
+
+#formContainers{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 50%;
+    height: 100%;
+    gap: 20px;
+    background-color: #C6C5B9;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#calenderFormContainer, #mediaFormContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #FDFDFF;
+    box-shadow: 0px 0px 5px #ADB5BD;
+    border-radius: 3px;
+    font-family: sans-serif;
+}
+
+input[type=text], input[type=date] {
+    display: inline-block;
+    width: 100%;
+    padding: 2%;
+    margin: 2% 0%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button[type=submit] {
+    width: 100%;
+    background-color: #62929E;
+    color: #FDFDFF;
+    padding: 10px;
+    margin: 2% 0%;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    background-color: #546A7B;
+}
+
+input[type=file] {
+    display: none;
+}
+
+.mediaImageInput {
+    width: 50%;
+    background-color: #62929E;
+    padding: 2%;
+    margin: 2% 0%;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #FDFDFF;
+}
+
+.mediaImageInput:hover {
+    background-color: #546A7B;
+}
